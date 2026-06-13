@@ -25,21 +25,20 @@ The company wanted to track food orders, customer behavior, delivery status, and
 
 ## Key Insights
 
-* Online stores generated 38.55% of total sales.
-* South region contributed the highest share of sales.
-* Several products consistently outperformed others across years.
-* Profitability remained positive across most periods.
+* Samosa recorded the highest quantity sold (2,427 units).
+* Butter Chicken was the second most ordered item (2,044 units).
+* Chole Bhature and Masala Dosa also showed strong customer demand.
+* These items are the main contributors to overall order volume.
 
 ## Recommendations
 
-* Increase investment in online sales channels.
-* Focus marketing efforts on high-performing regions.
-* Improve inventory planning for top-selling products.
-* Monitor low-performing regions and categories.
+* Increase promotions for Samosa and Butter Chicken.
+* Ensure sufficient inventory for high-demand items.
+* Create combo offers using top-selling foods.
+  
 
 ## Dashboard Preview
 
-<img src="https://github.com/Enjamul-Hoque/Power-BI-Sales-Dashboard/blob/5f0e5d11e812564091a009690022c4b37fcd81b7/Power%20BI%20Retail%20Sales%20Dashboard%20Screenshort.png" alt="Image Description" width="600">
 
 
 <img src="https://github.com/Enjamul-Hoque/Power-BI_Omato-Food-Delivery-Dashboard-/blob/92cdea90f16fa29c7dce168e60b286aa1945deb0/Omato%20_%20food_dashbord%20sreenshort.png" width="600">
