@@ -2,8 +2,7 @@
 
 ## Business Problem
 
-A retail company wanted to analyze sales performance, profitability, regional contribution, product performance, and store-type contribution to identify growth opportunities and improve profitability.
-
+The company wanted to track food orders, customer behavior, delivery status, and payment methods in one dashboard. By analyzing this data, the business can identify popular food items, monitor transaction trends, improve delivery performance, and make better business decisions
 ## Tools Used
 
 * Power BI
@@ -12,18 +11,17 @@ A retail company wanted to analyze sales performance, profitability, regional co
 
 ## DAX Measures Used
 
-* Total Sales = SUM(Fact_Sales[GrossSales])
-* Total Quantity = SUM(Fact_Sales[Quantity])
-* Profit = SUM(Fact_Sales[Profit])
-* Profit Margin = DIVIDE([Profit],[Total Sales],0)
-* Sales LY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Calendar Table'[Date].[Date]))
+* Transaction = COUNTROWS('Sales Data')
+* Total Quantity = SUM('Sales Data'[quantity])
+* Avg_Quantity = AVERAGE('Sales Data'[quantity])
+
 
 ## KPIs
 
-* Total Sales = 1.22B
-* Total Quantity = 82K
-* Profit = 226M
-* Profit Margin = 18.56%
+* Transaction = 15K
+* Total Quantity = 2.75K
+* Avg_Quantity = 5.0
+
 
 ## Key Insights
 
